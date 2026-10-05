@@ -2,9 +2,13 @@
 title: "我的第一幅藝術創作"
 date: 2026-10-05
 description: "這是關於這幅作品的簡短創作背景介紹。"
-thumbnail: "C:\Users\c\Desktop\YaHanChang-Art-Studio\static\images\5.那不是曇花一現，是永遠_水印木刻.jpg"
+# 💡 關鍵修正點：不要寫 C:\...，直接寫 images/ 加上你改好名字的圖檔名
+thumbnail: "images/artwork5.jpg"
 draft: false
 ---
 
 ### 創作理念
-在這裡輸入你這幅作品的詳細介紹、使用的媒材、靈感來源等。
+《那不是曇花一現，是永遠》
+
+在這裡輸入你這幅作品的詳細介紹、使用的媒材（例如：水印木刻）、靈感來源等。
+你可以放上更多你想分享給訪客的藝術理念文字！
