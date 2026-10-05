@@ -4,13 +4,14 @@ title = "YaHanChang Art Studio"
 theme = "congo"
 
 [params]
-  # 💡 終極修正點 1：將首頁樣式改為 "card" 或完全拿掉，Congo 就會強制把首頁變成「作品卡片牆」
-  homepageLayout = "card" 
+  # 💡 終極修正點 1：Congo 主題的 homepageLayout 必須設定為 "cards" (複數型)，才會啟動首頁卡片牆
+  homepageLayout = "cards"
   
-  # 💡 終極修正點 2：強制開啟首頁的文章/作品循環顯示
+  # 💡 終極修正點 2：大聲告訴 Hugo，主首頁要自動抓取 "projects" 資料夾裡的所有作品卡片！
   mainSections = ["projects"]
 
 [menu]
+  # 右上角的導覽列標籤
   [[menu.main]]
     name = "所有作品"
     pageRef = "projects"
