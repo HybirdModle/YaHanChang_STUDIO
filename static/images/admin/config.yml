@@ -1,0 +1,24 @@
+# 💡 連結你的 GitHub 儲存庫
+backend:
+  name: github
+  repo: HybirdModle/YaHanChang_STUDIO
+  branch: main
+
+# 💡 指定你上傳的藝術作品照片存放在哪裡
+media_folder: "content/projects/artwork-1"
+public_folder: ""
+
+# 💡 規劃你的發文後台介面
+collections:
+  - name: "projects"
+    label: "🎨 藝術作品管理"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "作品名稱 (Title)", name: "title", widget: "string" }
+      - { label: "創作日期 (Date)", name: "date", widget: "datetime" }
+      - { label: "首頁卡片簡介 (Description)", name: "description", widget: "text" }
+      - { label: "作品真實照片封面 (Featured Image)", name: "featured", widget: "image", default: "featured.jpg" }
+      - { label: "是否為草稿 (Draft)", name: "draft", widget: "boolean", default: false }
+      - { label: "作品詳細理念內文 (Body)", name: "body", widget: "markdown" }
