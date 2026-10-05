@@ -1,0 +1,13 @@
+baseURL = "https://github.io"
+languageCode = "zh-tw"
+title = "YaHanChang Art Studio"
+theme = "congo"
+
+[params]
+  homepageImageLayout = "background" 
+
+[menu]
+  [[menu.main]]
+    name = "所有作品"
+    pageRef = "projects"
+    weight = 1
