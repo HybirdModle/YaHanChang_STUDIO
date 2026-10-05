@@ -4,9 +4,15 @@ title = "YaHanChang Art Studio"
 theme = "congo"
 
 [params]
-  homepageImageLayout = "background" 
+  # 💡 關鍵修復點 1：Congo 主題必須指定這個參數，首頁才會切換成「作品集網頁」模式
+  layoutLoopMode = "posts" 
+  
+  # 💡 關鍵修復點 2：設定首頁的排版風格為畫廊模式
+  homepageLayout = "profile" 
+  showLinks = true
 
 [menu]
+  # 右上角的導覽列標籤
   [[menu.main]]
     name = "所有作品"
     pageRef = "projects"
