@@ -35,7 +35,7 @@ jobs:
           extended: true          # 啟用 Extended 支援 Congo 主題的 SCSS
 
       - name: Build with Hugo
-        run: hugo --minify --baseURL "${{ steps:pages.outputs.base_url }}/"
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
