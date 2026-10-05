@@ -2,7 +2,7 @@
 title: "我的第一幅藝術創作"
 date: 2026-10-05
 description: "這是關於這幅作品的簡短創作背景介紹。"
-thumbnail: "images/artwork5.jpg"
+thumbnail: "artwork5.jpg"
 draft: false
 ---
 
